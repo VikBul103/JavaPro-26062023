@@ -13,7 +13,7 @@ public class Burger {
         this.cheese = cheese;
         this.greens = greens;
         this.mayonnaise = mayonnaise;
-        displayComposition();
+        displayStaff();
     }
 
     public Burger(String bread, String meat, String cheese, String greens) {
@@ -24,8 +24,8 @@ public class Burger {
         this(bread, doubleMeat ? meat + ", " + meat : meat, cheese, greens, mayonnaise);
     }
 
-    private void displayComposition() {
-        System.out.println("Burger Composition:");
+    private void displayStaff() {
+        System.out.println("Burger Staff:");
         System.out.println("Bread: " + bread);
         System.out.println("Meat: " + meat);
         System.out.println("Cheese: " + cheese);
