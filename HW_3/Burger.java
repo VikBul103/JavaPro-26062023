@@ -25,7 +25,6 @@ public class Burger {
     }
 
     private void displayStaff() {
-        System.out.println("Burger Staff:");
         System.out.println("Bread: " + bread);
         System.out.println("Meat: " + meat);
         System.out.println("Cheese: " + cheese);
